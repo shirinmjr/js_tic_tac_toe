@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Build your game board, instructions, and score displays here! -->
+    <div id="game-intro-box">
+      <h1>Welcome to the Tic Tac Toe Game</h1>
+      <h2 id="message-box">Love VS Money!</h2>
+      <table class="players-table">
+        <tr>
+          <th>Love</th>
+          <td>
+            <img class="heart-img" src="/heart.png" alt="image of a pink heart" />
+          </td>
+          <th>Money</th>
+          <td>
+            <img class="diamond-img" src="/diamond.png" alt="image of a blue diamond" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="game-wrapper">
+      <div id="game-container">
+        <button btn="1" class="button-option"></button>
+        <button btn="2" class="button-option"></button>
+        <button btn="3" class="button-option"></button>
+        <br />
+        <button btn="4" class="button-option"></button>
+        <button btn="5" class="button-option"></button>
+        <button btn="6" class="button-option"></button>
+        <br />
+        <button btn="7" class="button-option"></button>
+        <button btn="8" class="button-option"></button>
+        <button btn="9" class="button-option"></button>
+      </div>
+      <button id="restart">RESTART</button>
+      <p id="message-restart"></p>
+    </div>
+
+    <footer>
+      <p id="copywrite">
+        <large>&copy;</large> This game is built by
+        <large>Shirin Mohajer</large>
+      </p>
+      <address id="address">
+        Contact me <a href="mailto:shirin.mohajer@gmail.com">shirin.mohajer@gmail.com</a>
+      </address>
+      <p id="github-link">
+        Find this on my <a href="https://github.com/ShirinMjr/u1_hw_tic_tac_toe">GitHub</a>
+      </p>
+    </footer>
+    <!-- Build your game board, instructions, and score displays here! -->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

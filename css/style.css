@@ -1,0 +1,91 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+h1{
+    animation: blinker 1s step-start infinite;
+}
+
+#game-intro-box {
+  display: block;
+  text-align: center;
+}
+#message-box {
+  font-size: large;
+}
+
+#heart-winner-msg {
+  color: rgb(253, 119, 179);
+}
+
+#money-winner-msg {
+  color: rgb(59, 79, 191);
+}
+
+.players-table {
+  border: solid 7px pink;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.heart-img,
+.diamond-img {
+  width: 60px;
+}
+.heart-img-btn {
+  background-image: url("/heart.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.diamond-img-btn {
+  background-image: url("/diamond.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.game-wrapper {
+  text-align: center;
+  margin: 20px;
+}
+
+#game-container {
+  margin: 20px;
+}
+
+.button-option {
+  background-color: rgb(245, 161, 176);
+  border: 1px solid rgb(231, 129, 231);
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  margin: 2px 2px;
+}
+#restart {
+  font-size: 30px;
+  background-color: rgb(253, 119, 179);
+  color: white;
+  border: 1px solid rgb(231, 129, 231);
+  border-radius: 5cm;
+  width: 300px;
+  height: 50px;
+}
+
+#copywrite,
+#address,
+#github-link,
+#message-restart {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: x-small;
+  }
+  .button-option {
+    width: 80px;
+    height: 80px;
+  }
+}
