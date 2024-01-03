@@ -4,6 +4,9 @@
 
 ![Tic Tac Toe](https://vuejsexamples.com/content/images/2017/03/Tic-Tac-Toe.gif)
 
+## About this project:
+
+This an experimental project as part of my General Assembly Immersive learning. The final product is fully functional on the front-end only. Building a back end could be a great improvement for features such as keeping scores, or playing with computer (or AI) can be considered in an improved version.
 
 ## Getting Started
 
